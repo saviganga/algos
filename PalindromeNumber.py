@@ -23,6 +23,6 @@ def palindromenumber(nums):
         return False
 
 if __name__ == '__main__':
-    num = 100
+    num = int(input('Enter a number to check if it is a Palindrome: '))
     palin_num = palindromenumber(num)
     print(palin_num)

@@ -40,7 +40,7 @@ def reverseinteger(num):
 
 
 if __name__ == '__main__':
-    num = -45
+    num = int(input('Enter a number to reverse it: '))
     nums = reverseinteger(num)
     print(nums)
     
